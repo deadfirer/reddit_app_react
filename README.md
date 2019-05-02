@@ -1,6 +1,4 @@
-# desafio_frontend
-Resposta do Desafio Front-End
-
+# Reddit App React
 
 Codigo para execução do app (Necessário NodeJs para a execução dos comandos)
 

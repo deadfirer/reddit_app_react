@@ -1,0 +1,130 @@
+@charset 'utf-8';
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font: 16px sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+.app {
+  float: left;
+  padding: 30px;
+  width: 100%;
+  margin-top: 40px;
+}
+
+.actions {
+  float: left;
+  width: 100%;
+  position: relative;
+}
+
+.actions {
+  text-align: center;
+  justify-content: space-between;
+  padding-bottom: 40px;
+  padding-top: 1%;
+}
+
+.actions button {
+  font-size: 15px;
+  font-weight: 400;
+  color:#fff;
+  height: 50px;
+  text-transform: uppercase;
+  width: 200px;
+  border-radius: 6px;
+  background: #333;
+}
+
+.actions :hover, .active{
+    background: #ff5500 !important;
+}
+
+.topo {
+  width: 100%;
+  background: rgb(51, 51, 51);
+  margin: 0 auto;
+  height: 70px;
+  text-align: center;
+  position: absolute; 
+}
+
+.logo {
+  color: #fff;
+  position: relative;
+  font-size: 1.5em;
+  margin-top: 20px ;
+}
+
+.container{
+  width: 100%;
+  height: 100%;
+  margin: 0px;
+  float: left;
+
+}
+
+.post {
+  height: 160px;
+  color :#333;
+  border-top: 1px solid #333;
+  border-bottom: 1px solid #333;
+  cursor: pointer;
+  background: #fff;
+}
+
+.contPost {
+  text-decoration:none;
+}
+
+.contPost :hover {
+  background: #ccc;
+  
+}
+
+a {color :#333;}
+
+.thumb{
+  width: 160px;
+  float: left;
+  height: 160px;
+}
+
+.thumb img {
+  width: 140px;
+  height: 140px;
+  padding: 10px;
+}
+
+.corTime {
+  color: #333;
+}
+
+.corUser {
+  color: #ff5500;
+}
+
+.title {
+  font-size: 1.3em;
+  font-stretch: expanded;
+  font-weight: bold;
+}
+
+.dominio {
+  font-weight: bold;
+  font-size: 0.8em;
+  text-decoration: underline;
+}
+
+.show{
+  width: 100% !important;
+}
+
+.textPost{
+  margin: 0px auto;
+}
